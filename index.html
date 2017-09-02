@@ -1,18 +1,26 @@
 ---
 layout: default
 ---
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<div class="row">
+  <div class="col-sm-4 sidebar">
+    <div class="sidebar-content">
+   İslam İşbirliği Teşkilatı, binlerce kişinin, komşu Bangladeş'e kaçmasına yol açan Myanmar'ın Rakhine Eyaletindeki Rohingya Müslüman cemaatini etkileyen şiddet olaylarını kınadı.
+Özellikle, Maungdow şehrindeki ordu ve polis teşkilatlarının gözetimi altındaki illegal gruplar tarafından, birçok köy ve evin sistematik ve organize biçimde yok edilmesinde, ağır topçu silahları da içeren askeri gücün, sivil nüfustaki sınırsız kullanımı açıkça kanıtlandı.
+Bölgede 20.000'den fazla Rohingya'lı yerinden edilmiştir. Myanmar hükümetini, yerinden olmuş kişileri evlerine derhal geri dönmesine ve insani yardım kuruluşlarının etkilenen insanlara yardım etmesine izin vermeye çağırıyor.<br>
+    </div>
+    <a class="sidebar-link" href="./about/"></a>
+  </div>
+  <div class="main col-sm-8">
+    <h1 class="page-heading"></h1>
+    <div class="blog-index">  
+      {% assign post = site.posts.first %}
+      {% assign content = post.content %}
+      {% include post_detail.html %}
+    </div>
+  </div>
+</div>
+<div class="row big-quote">
+  <em><span class="white-text">“Arakan cephesinde garip bir insan topluluğu bulacaksınız.”</span> Burası İngiliz Derin Devletinin'nin Japon Devleti ile tanıştığı yerdi. Aynı zamanda dini ve etnik gerginlikle boğuşan karmaşık bir sınır idi. Sadece, orada yaşayan yerel Müslüman, Budist, Bama, Rakhine ve Rohingya toplulukları değil, çeşitli etnik gruplar ve Britanyalı müttefik birlikler de vardı;
+Amerikalılar, Çinli askerler ve yetkililer gibi.
+</em>
 </div>
