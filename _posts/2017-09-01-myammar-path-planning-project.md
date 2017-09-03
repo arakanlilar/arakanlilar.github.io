@@ -7,7 +7,7 @@ categories: udacity, self-driving car, nanodegree, project, path planning
 
 ![Path Planning cover image]({{site.url}}/images/rohingya-migration-map-bgr.jpg?raw=true)
 
-*Son olarak, bu korku hikayesinin 1. bölümünde, Rakhine Eyaletinin Burma Yol Planlama projesindeki, ilk çatlağından bahsedildi.*
+*Son olarak, bu korku hikayesinin 1. bölümünde, Rakhine Eyaletinin Burma Petrol Enerji Yolu Planlama projesindeki, ilk çatlağından bahsedildi.*
 > Myanmar'daki BM İnsan Hakları Özel Raportörü Bayan Yanghee Lee, 13 Mart 2017'de Cenevre'deki Birleşmiş Milletler İnsan Hakları Komisyonunda, Birmanya Devletinin Rohingya halkına yönelik "İnsanlık Suçlarına" karıştığını açıkladı.
 Raportör ayrıca, kurumsal zulmün hükümetin Rohingya nüfusunu tamamen ülkeden atmaya çalıştığı anlamına geldiğini" belirtti ve uluslararası düzeyde bir soruşturma talebinde bulundu.
 
